@@ -34,21 +34,54 @@
                         <label for="name">Nome da entidade</label>
                         <input type="text" name="name">
                     </div>
-                    <div class="field-group"></div>
+
+                    <div class="field-group">
+                        <div class="field">
+                            <label for="adress">Endereço</label>
+                            <input type="text" name="adress">
+                        </div>
+                        <div class="field">
+                            <label for="adress2">Número/Complemento</label>
+                            <input type="text" name="adress2">
+                        </div>
+                    </div>
+
+                    <div class="field-group">
+
+                        <div class="field">
+                            <label for="state"></label>
+                            <select name="uf" id="">
+                                <option value="">Selecione o Estado</option>
+                            </select> 
+                            <input type="hidden" name="state">
+                        </div>
+
+                        <div class="field">
+                            <label for="city"></label>
+                            <select name="city" id="" disabled>
+                                <option value="" id="">Selecione a Cidade</option>
+                            </select>
+                        </div>
+
+
+
+                    </div>
                 </fieldset>
+        
                 
-<!---------------------------------------------------------------------------->
+<!-----------------
 
                 <fieldset>
                     <legend>
                         <h2>Ítens de coleta</h2>
                     </legend>
                 </fieldset>
-                
+-------------------->
                 <button type="submit">Cadastrar ponto de coleta</button>
 
             </form>
 
     </div>
+    <script src="scripts/create-point.js"></script>
 </body>
 </html>
