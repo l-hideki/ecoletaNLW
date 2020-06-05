@@ -12,6 +12,16 @@
 }
 
 @media (max-width: 900px) {/*@media regras para responsividade*/
+    
+    #page-search-results .cards{
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img{
+        height: 250px;
+    }
+
+
     #page-home {
         background-position-x: 70vw;
     }
