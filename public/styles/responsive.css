@@ -42,4 +42,10 @@
     #page-home main {
         align-items: center;
     }
+    #page-create-point .field-group{
+        flex-direction: column;
+    }
+    #page-create-point .field-group .field+.field{
+        margin-left: 0;
+    }
 } 
